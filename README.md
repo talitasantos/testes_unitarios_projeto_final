@@ -1,4 +1,4 @@
-# Projeto Final - Talita Ribeiro
+# Projeto Final - ETA 2023.1
 
 *Disciplina:* Testes Unitários
 
