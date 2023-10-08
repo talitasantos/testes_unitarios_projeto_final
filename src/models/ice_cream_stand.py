@@ -25,7 +25,9 @@ class IceCreamStand(Restaurant):
         """Verifica se o sabor informado está disponível."""
         if self.flavors:
             if flavor in self.flavors:
-                print(f"Temos no momento {self.flavors}!")
+                # precisa retornar o saboar e nao a lista de sabores
+              #  print(f"Temos no momento {self.flavors}!")
+                print(f"Temos no momento {flavor}!")
             else:
                 print(f"Não temos no momento {self.flavors}!")
         else:
