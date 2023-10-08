@@ -1,4 +1,8 @@
-# ETA
+# Projeto Final - Talita Ribeiro
+
+*Disciplina:* Testes Unitários
+
+*Técnica escolhida:* Requirements-Based Testing (requisitos)
 
 ## Setup
 
