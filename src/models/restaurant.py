@@ -17,7 +17,9 @@ class Restaurant:
     def open_restaurant(self):
         """Imprima uma mensagem indicando que o restaurante está aberto para negócios."""
         if not self.open:
-            self.open = False
+            # não é necessário definir self.open como False novamente, já que estamos abrindo o restaurante.
+            #self.open = False
+            self.open = True
             # para validar se o restaurante está aberto, número de serviço deve começa com 0
             self.number_served = 0
             return f"{self.restaurant_name} agora está aberto!"
